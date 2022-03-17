@@ -2382,6 +2382,11 @@ escape-html@~1.0.3:
   resolved "https://repo.intra.eika.no/artifactory/api/npm/npm-repo/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
+escape-string-regexp@2.0.0:
+  version "2.0.0"
+  resolved "https://repo.intra.eika.no/artifactory/api/npm/npm-repo/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha1-owME6Z2qMuI7L9IPUbq9B8/8o0Q=
+
 escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://repo.intra.eika.no/artifactory/api/npm/npm-repo/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
@@ -2992,7 +2997,7 @@ interpret@^1.0.0:
   resolved "https://repo.intra.eika.no/artifactory/api/npm/npm-repo/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha1-Zlq4vE2iendKQFhOgS4+D6RbGh4=
 
-invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://repo.intra.eika.no/artifactory/api/npm/npm-repo/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -4402,6 +4407,14 @@ react-native-web@0.17.1:
     inline-style-prefixer "^6.0.0"
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
+
+react-native-webview@11.15.0:
+  version "11.15.0"
+  resolved "https://repo.intra.eika.no/artifactory/api/npm/npm-repo/react-native-webview/-/react-native-webview-11.15.0.tgz#b5aea9da579ca17fb9fd324e5202b1b5b8ce9fa8"
+  integrity sha1-ta6p2lecoX+5/TJOUgKxtbjOn6g=
+  dependencies:
+    escape-string-regexp "2.0.0"
+    invariant "2.2.4"
 
 react-native@0.64.3:
   version "0.64.3"
